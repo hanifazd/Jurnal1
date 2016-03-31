@@ -18,7 +18,7 @@ public class JurnalNo1 {
     {
 	int f;
 	if(n==1 || n==2)
-            f=1;
+            f=1+f;
 	else
             f = fibo(n-1) + fibo(n-2);
             return f;
